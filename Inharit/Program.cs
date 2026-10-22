@@ -8,7 +8,7 @@ namespace Inharit
             WriteLine("Hello, World!");
             Human h = new Human("hhh", "h",DateTime.Now);
             Employee e = new Employee("eee", "e",100, DateTime.Now);
-            h.Show();
+            h.Print();
             e.Print();
 
             Human[] h2 =
@@ -20,7 +20,7 @@ namespace Inharit
 
             foreach (Human hum in h2)
             {
-                hum.Show();
+                hum.Print();
             }
         }
     }

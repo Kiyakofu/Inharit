@@ -19,7 +19,7 @@ namespace Inharit
             _lastname = lastname;
             _birthDate = birthDate;
         }
-        public void Show()
+        public virtual void Print()
         {
             WriteLine($"Name {_firstname},\n Lastname {_lastname},\n birthDate {_birthDate}");
         }
@@ -36,7 +36,7 @@ namespace Inharit
             _salary = salary;
         }
 
-        public void Print()
+        public override void Print()
         {
             WriteLine($"Name: {_firstname}\nLastname: {_lastname}\nSalary: {_salary}");
         }
