@@ -5,6 +5,7 @@ namespace Inharit
     {
         static void Main(string[] args)
         {
+            /*#region class
             WriteLine("Hello, World!");
             Human h = new Human("hhh", "h",DateTime.Now);
             Employee e = new Employee("eee", "e",100, DateTime.Now);
@@ -22,6 +23,8 @@ namespace Inharit
             {
                 hum.Print();
             }
+            #endregion*/
+
         }
     }
 }
